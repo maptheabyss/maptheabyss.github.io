@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Inaugural Post"
+title: inaugural Post
 date: 2016-04-17
 ---
 
