@@ -6,9 +6,9 @@ title: Map The Abyss
 	<h1>Hi there, welcome to Map The Abyss.</h1>
 	<p>A blog dedicated to current events and historical achievements in both ocean mapping and oceanographic discovery. I'm just setting up this website, please check back for posts! </p>
 	<ul class="posts">
-		{% for post in site.posts %}
-		<li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-		{% endfor %}
-  	</ul>
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 </div>
 <!-- /.blurb -->
